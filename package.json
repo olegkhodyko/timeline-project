@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "start": "webpack serve --mode development",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint src --ext .ts,.tsx",
     "lint:fix": "eslint src --ext .ts,.tsx --fix"
@@ -10,7 +11,7 @@
   "keywords": [],
   "author": "Oleg khodyko",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "description": "Timeline project as a test task",
   "dependencies": {
     "gsap": "^3.13.0",
