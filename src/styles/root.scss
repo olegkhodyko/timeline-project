@@ -15,7 +15,7 @@ body {
   line-height: 1.5;
   font-family: $font-family-base;
   background-color: $background-color;
-  color: $text-color;
+  color: $black-blue-color;
 }
 
 h1,
@@ -63,13 +63,14 @@ html:focus-within {
 }
 
 :root {
-  --primary-color: #{$primary-color};
-  --secondary-color: #{$secondary-color};
+  --royal-blue: #{$royal-blue-color};
+  --royal-pink: #{$royal-pink-color};
   --background-color: #{$background-color};
-  --text-color: #{$text-color};
+  --black-blue: #{$black-blue-color};
+  --black-blue-tr20: #{$black-blue-color-tr20};
+  --black-blue-tr10: #{$black-blue-color-tr10};
   --max-width: #{$max-width};
 }
-
 .container {
   width: 100%;
   max-width: $max-width;

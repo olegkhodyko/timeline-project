@@ -1,0 +1,14 @@
+.text {
+  font-size: clamp(2rem, 14.5vw, 13rem);
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.primary {
+  color: var(--royal-blue);
+}
+
+.secondary {
+  color: var(--royal-pink);
+}

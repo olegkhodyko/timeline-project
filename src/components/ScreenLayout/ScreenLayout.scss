@@ -1,0 +1,22 @@
+.layoutWrapper {
+  position: relative;
+  max-width: 1440px;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 170px 0 135px 0;
+  z-index: 1;
+  border: 1px solid var(--black-blue-tr10);
+  border-top: none;
+  border-bottom: none;
+
+  &::after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 1px;
+    background: var(--black-blue-tr10);
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
