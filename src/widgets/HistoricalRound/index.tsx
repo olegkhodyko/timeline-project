@@ -7,4 +7,5 @@ const HistoricalRound = () => (
     <Ui.YearsWrapper />
   </section>
 );
+
 export default HistoricalRound;
