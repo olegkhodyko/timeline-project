@@ -1,5 +1,5 @@
-@use './shared/variables' as *;
-@use './shared/mixins' as *;
+@use './shared/styles/mixins' as *;
+@use './shared/styles/variables' as *;
 
 *,
 *::before,
@@ -67,6 +67,7 @@ html:focus-within {
   --royal-pink: #{$royal-pink-color};
   --background-color: #{$background-color};
   --black-blue: #{$black-blue-color};
+  --black-blue-tr50: #{$black-blue-color-tr50};
   --black-blue-tr20: #{$black-blue-color-tr20};
   --black-blue-tr10: #{$black-blue-color-tr10};
   --max-width: #{$max-width};

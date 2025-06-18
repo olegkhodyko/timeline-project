@@ -1,11 +1,6 @@
-import Components from '@/components';
 import { FC } from 'react';
+import { MainScreen } from '@/pages';
 
-const App: FC = () => (
-  <Components.ScreenLayout>
-    <Components.HistoricalDates />
-    <Components.MiddleRound />
-  </Components.ScreenLayout>
-);
+const App: FC = () => <MainScreen />;
 
 export default App;
