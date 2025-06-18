@@ -26,7 +26,7 @@ const Circle: FC = () => {
             <DotComponent
               key={item.id}
               item={item}
-              onClick={handleClick}
+              handleClick={handleClick}
               isActive={isActive}
               x={x}
               y={y}
